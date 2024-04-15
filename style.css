@@ -1,0 +1,66 @@
+.form-container {
+    width: 30vw;
+    padding: 20px;
+    padding-top: 80px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+.input-container {
+    position: relative;
+}
+
+.error-icon,.info-icon {
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 40%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.modal-content {
+    background-color: #f0f0f0;
+    width: 60vw;
+}
+.error-icon img .info-icon img {
+    width: 100%;
+    height: auto;
+    z-index: 10;
+}
+label{
+    font-weight: 700;
+    font-size: large;
+}
+
+#submitBtn{
+    width: 100%;
+    margin-top: 20px;
+}
+.modal-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50vh;
+}
+.modal-body h2{
+    text-align: center;
+    width: auto;
+    margin-inline: auto;
+    font-size: 35px;
+    margin: 0px;
+}
+.modal-body p{
+    text-align: center;
+    width: auto;
+    margin-inline: auto;
+    font-size: 18px;
+}
+.modal-body #resultText{
+    text-align: center;
+    width: auto;
+    font-size: 27px;
+    margin: 0px;
+}
